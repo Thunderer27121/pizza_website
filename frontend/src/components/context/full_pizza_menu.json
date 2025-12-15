@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita",
+    "category": "veg",
+    "price": 318,
+    "image": "https://www.nicepng.com/png/detail/384-3843443_photo-cheese-pizza-vertical-double-cheese-margherita-pizza.png",
+    "description": "Margherita - A timeless classic topped with rich tomato sauce, gooey mozzarella, and a touch of fresh basil."
+  },
+  {
+    "id": 2,
+    "name": "Farmhouse",
+    "category": "veg",
+    "price": 241,
+    "image": "https://jambubakers.com/wp-content/uploads/2023/07/pizza.png",
+    "description": "Farmhouse - A wholesome delight loaded with crunchy onions, juicy tomatoes, crisp capsicum, and earthy mushrooms"
+  },
+  {
+    "id": 3,
+    "name": "Onion Capsicum",
+    "category": "veg",
+    "price": 224,
+    "image": "https://www.seekpng.com/png/detail/251-2518542_farm-villa-medium-red-and-yellow-capsicum-pizza.png",
+    "description": "Onion Capsicum – A flavorful combo of sweet onions and fresh green capsicum on a cheesy, golden crust"
+  },
+  {
+    "id": 4,
+    "name": "Mushroom Delight",
+    "category": "veg",
+    "price": 320,
+    "image": "https://png.pngtree.com/png-clipart/20250116/original/pngtree-delicious-veggie-pizza-with-olives-mushrooms-and-peppers-png-image_19908887.png",
+    "description": "Mushroom Delight – A rich and earthy treat topped with juicy mushrooms and layers of melted mozzarella."
+  },
+  {
+    "id": 5,
+    "name": "Paneer Veggie",
+    "category": "veg",
+    "price": 273,
+    "image": "https://www.pikpng.com/pngl/b/522-5220691_special-paneer-veggie-pizza-pizza-veggie-pizza-clipart.png",
+    "description": "Paneer Veggie – A flavorful fusion of spicy paneer cubes, garden-fresh veggies, and zesty sauces on a cheesy crust"
+  },
+  {
+    "id": 6,
+    "name": "Fresh Garden",
+    "category": "veg",
+    "price": 315,
+    "image": "https://png.pngtree.com/png-vector/20231111/ourmid/pngtree-garden-goodness-a-slice-of-wholesome-vegetarian-pizza-png-image_10560539.png",
+    "description": "Fresh Garden – A colorful medley of crisp vegetables bursting with farm-fresh flavor on every slice"
+  },
+  {
+    "id": 7,
+    "name": "Sweet Corn",
+    "category": "veg",
+    "price": 296,
+    "image": "https://png.pngtree.com/png-vector/20240124/ourmid/pngtree-pizza-with-corn-bacon-chili-onion-pea-png-image_11483576.png",
+    "description": "Sweet Corn – A cheesy delight topped with juicy golden corn kernels that add a burst of sweetness to every bite"
+  },
+  {
+    "id": 8,
+    "name": "Tomato Basil",
+    "category": "veg",
+    "price": 303,
+    "image": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-pizza-delicious-tomatoes-png-image_9057058.png",
+    "description": "Tomato Basil – A light and elegant combo of juicy tomatoes and aromatic basil on a bed of melted cheese"
+  },
+  {
+    "id": 9,
+    "name": "Green Delight",
+    "category": "veg",
+    "price": 316,
+    "image": "https://png.pngtree.com/png-vector/20240810/ourmid/pngtree-classic-margherita-pizza-delight-authentic-italian-recipe-perfection-isolated-png-image_13440803.png",
+    "description": "Green Delight – A fresh and flavorful mix of green peppers, olives, and herbs for a garden-fresh pizza experience"
+  },
+  {
+    "id": 10,
+    "name": "Veg Loaded",
+    "category": "veg",
+    "price": 214,
+    "image": "https://png.pngtree.com/png-clipart/20250119/original/pngtree-veggie-loaded-pizza-png-image_19948705.png",
+    "description": "Veg Loaded – A fully packed veggie explosion with onions, capsicum, tomatoes, sweet corn, mushrooms, and more! "
+  },
+  {
+    "id": 11,
+    "name": "Pepperoni",
+    "category": "nonveg",
+    "price": 367,
+    "image": "https://img.freepik.com/premium-photo/fresh-tasty-pizza-with-pepperoni-isolated-white_136401-2336.jpg?semt=ais_hybrid&w=740",
+    "description": "Pepperoni – A bold and savory classic loaded with crispy, spicy pepperoni slices over a bed of gooey cheese"
+  },
+  {
+    "id": 12,
+    "name": "Chicken Tikka",
+    "category": "nonveg",
+    "price": 291,
+    "image": "https://www.pngitem.com/pimgs/m/529-5293818_chicken-tikka-pizza-png-transparent-png.png",
+    "description": "Chicken Tikka – A fiery favorite topped with tender, marinated chicken tikka chunks and a burst of desi spices"
+  },
+  {
+    "id": 13,
+    "name": "BBQ Chicken",
+    "category": "nonveg",
+    "price": 327,
+    "image": "https://static.vecteezy.com/system/resources/previews/024/108/111/non_2x/tasty-bbq-chicken-cheese-pizza-isolated-on-transparent-background-png.png",
+    "description": "BBQ Chicken – Smoky, saucy perfection with juicy BBQ chicken pieces and a sweet-spicy kick on every slice.."
+  },
+  {
+    "id": 14,
+    "name": "Chicken Supreme",
+    "category": "nonveg",
+    "price": 371,
+    "image": "https://png.pngtree.com/png-clipart/20230409/ourmid/pngtree-supreme-pizza-lifted-slice-png-image_6697088.png",
+    "description": "Chicken Supreme – A meaty masterpiece loaded with grilled chicken, spicy sausages, and crunchy veggies on a cheesy crust"
+  },
+  {
+    "id": 15,
+    "name": "Spicy Chicken",
+    "category": "nonveg",
+    "price": 355,
+    "image": "https://t4.ftcdn.net/jpg/08/02/93/77/360_F_802937730_rzcXS8PiEpG73YNzzIlTXNGUymAc6dWD.jpg",
+    "description": "Spicy Chicken – A fiery fusion of tender chicken chunks, hot chilies, and bold spices for the ultimate heat lover’s bite"
+  },
+  {
+    "id": 16,
+    "name": "Chicken Sausage",
+    "category": "nonveg",
+    "price": 337,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRkZ6ryFYB6TUOvDd3JRl074edN2-XroIIA&s",
+    "description": "Chicken Sausage – A savory treat topped with juicy chicken sausage slices and melted cheese on a golden crust."
+  },
+  {
+    "id": 17,
+    "name": "Meat Lovers",
+    "category": "nonveg",
+    "price": 335,
+    "image": "https://png.pngtree.com/png-vector/20231111/ourmid/pngtree-the-meat-lovers-pizza-opera-on-a-plate-png-image_10560574.png",
+    "description": "Meat Lovers – A carnivore’s dream piled high with pepperoni, chicken, sausage, and smoky meats on a cheesy base"
+  },
+  {
+    "id": 18,
+    "name": "Keema Feast",
+    "category": "nonveg",
+    "price": 370,
+    "image": "https://t4.ftcdn.net/jpg/05/74/68/47/360_F_574684775_Vw9D3VkXofqdoeWdPkI6ORTafqA6zhqg.jpg",
+    "description": "Keema Feast – A spicy indulgence loaded with flavorful minced chicken keema, herbs, and a desi twist on every slice."
+  },
+  {
+    "id": 19,
+    "name": "Chicken Delight",
+    "category": "nonveg",
+    "price": 372,
+    "image": "https://png.pngtree.com/png-vector/20240208/ourmid/pngtree-cheese-and-chicken-pizza-png-image_11713324.png",
+    "description": "Chicken Delight – A delicious mix of tender chicken pieces, vibrant veggies, and creamy cheese for a perfect bite every time"
+  },
+  {
+    "id": 20,
+    "name": "Peri Chicken",
+    "category": "nonveg",
+    "price": 345,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy9FYzJp7nIZJZX2i_lXG0jQKwmkftatFJfQ&s",
+    "description": "Peri Chicken – A zesty, fiery favorite topped with peri-peri spiced chicken and a bold burst of flavor in every bite"
+  },
+  {
+    "id": 21,
+    "name": "Peri Paneer",
+    "category": "spicy",
+    "price": 294,
+    "image": "https://img.clevup.in/360704/CornCheesePizza-1717657653796.jpeg?width=600&format=webp",
+    "description": "Peri Paneer – A spicy twist on tradition with smoky peri-peri paneer, crisp veggies, and a cheesy base that packs a punch"
+  },
+  {
+    "id": 22,
+    "name": "Mexican Wave",
+    "category": "spicy",
+    "price": 240,
+    "image": "https://www.dominos.co.in//files/items/Mexican_Green_Wave.jpg",
+    "description": "Mexican Wave – A vibrant fiesta of spicy jalapeños, crunchy onions, juicy tomatoes, and exotic Mexican herbs"
+  },
+  {
+    "id": 23,
+    "name": "Jalapeno Blast",
+    "category": "spicy",
+    "price": 263,
+    "image": "https://png.pngtree.com/png-vector/20240404/ourlarge/pngtree-spicy-jalapeno-and-pineapple-pizza-png-image_12260866.png",
+    "description": "Jalapeño Blast – A fiery favorite loaded with spicy jalapeños, creamy cheese, and a bold burst of heat in every bite."
+  },
+  {
+    "id": 24,
+    "name": "Spicy Veggie",
+    "category": "spicy",
+    "price": 325,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsp-ZfWF6jWxnWFBZno-Cj20GK4TPCV0GkMA&s",
+    "description": "Spicy Veggie – A bold mix of fresh veggies and hot chilies, bringing the perfect kick to every cheesy slice."
+  },
+  {
+    "id": 25,
+    "name": "Hot & Tangy",
+    "category": "spicy",
+    "price": 309,
+    "image": "https://www.pngitem.com/pimgs/m/539-5396253_tandoori-hot-california-style-pizza-hd-png-download.png",
+    "description": "Hot and Tangy – A sizzling combo of spicy peppers and tangy sauces that light up your taste buds with every bite"
+  },
+  {
+    "id": 26,
+    "name": "Firecracker",
+    "category": "spicy",
+    "price": 309,
+    "image": "https://png.pngtree.com/png-clipart/20230425/original/pngtree-a-full-cheese-pizza-png-image_9101591.png",
+    "description": "Firecracker – An explosive burst of fiery spices, bold toppings, and cheesy goodness that ignites your cravings."
+  },
+  {
+    "id": 27,
+    "name": "Schezwan Cheese",
+    "category": "spicy",
+    "price": 302,
+    "image": "https://thumbs.dreamstime.com/b/delicious-cheese-pizza-golden-crust-gooey-toppings-transparent-png-background-generative-ai-mouthwatering-perfectly-381153867.jpg",
+    "description": "Schezwan Cheese – A fusion favorite with spicy Schezwan sauce and a rich layer of melted cheese for a bold, zesty bite"
+  },
+  {
+    "id": 28,
+    "name": "Red Chilli Delight",
+    "category": "spicy",
+    "price": 289,
+    "image": "https://png.pngtree.com/png-vector/20240715/ourmid/pngtree-traditional-pepperoni-pizza-with-a-rich-tomato-sauce-and-extra-cheese-png-image_13107250.png",
+    "description": "Red Chilli Delight – A fiery feast loaded with red chilli flakes, hot sauce, and melty cheese for spice lovers only."
+  },
+  {
+    "id": 29,
+    "name": "Tandoori Heat",
+    "category": "spicy",
+    "price": 336,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr7Y_ufGhAlpapJWM7RgC0TCGRwfrqPfy3uQ&s",
+    "description": "Tandoori Heat – A smoky, spicy sensation topped with tandoori-marinated chunks and bold Indian flavors on a cheesy crust. "
+  },
+  {
+    "id": 30,
+    "name": "Green Chilli Fusion",
+    "category": "spicy",
+    "price": 318,
+    "image": "https://media.istockphoto.com/id/174912581/photo/pizza-from-the-top-super-deluxeo.jpg?s=612x612&w=0&k=20&c=xarY-HSYeFtlVR9KZTN-7MCzEauxytmQuPnqViSKBCY=",
+    "description": "Green Chilli Fusion – A bold blend of fresh green chillies, spicy seasoning, and creamy cheese for a fiery flavor punch"
+  },
+  {
+    "id": 31,
+    "name": "Cheese Burst Margherita",
+    "category": "cheeseburst",
+    "price": 310,
+    "image": "https://www.dominos.co.in//files/items/Double_Cheese_Margherita.jpg",
+    "description": "Cheese Burst Margherita – A classic Margherita loaded with an irresistible layer of molten, gooey cheese inside the crust."
+  },
+  {
+    "id": 32,
+    "name": "Triple Cheese",
+    "category": "cheeseburst",
+    "price": 314,
+    "image": "https://thumbs.dreamstime.com/b/delicious-cheese-pizza-golden-crust-gooey-toppings-transparent-png-background-generative-ai-mouthwatering-perfectly-381153867.jpg",
+    "description": "Triple Cheese – A rich, creamy blend of mozzarella, cheddar, and parmesan for the ultimate cheesy indulgence."
+  },
+  {
+    "id": 33,
+    "name": "Stuffed Crust Delight",
+    "category": "cheeseburst",
+    "price": 337,
+    "image": "https://png.pngtree.com/png-clipart/20210418/original/pngtree-western-food-italian-sausage-pizza-png-image_6241229.jpg",
+    "description": "Stuffed Crust Delight – A flavorful feast with a cheesy-stuffed crust and delicious toppings baked to golden perfection.."
+  },
+  {
+    "id": 34,
+    "name": "Creamy Cheese Veg",
+    "category": "cheeseburst",
+    "price": 304,
+    "image": "https://png.pngtree.com/png-vector/20240730/ourmid/pngtree-pizza-with-cheese-on-a-white-background-top-viewvery-high-quality-png-image_13292309.png",
+    "description": "Creamy Cheese Veg – A luscious blend of creamy cheese sauce and garden-fresh veggies on a soft, cheesy base. ."
+  },
+  {
+    "id": 35,
+    "name": "Extreme Cheese",
+    "category": "cheeseburst",
+    "price": 352,
+    "image": "https://png.pngtree.com/png-clipart/20250421/original/pngtree-loaded-chicken-and-veggie-pizza-png-image_20753664.png",
+    "description": "Extreme Cheese – An overload of melting, stretchy cheese for the true cheese lover’s dream bite.."
+  },
+  {
+    "id": 36,
+    "name": "Cheese Volcano",
+    "category": "cheeseburst",
+    "price": 420,
+    "image": "https://png.pngtree.com/png-vector/20240517/ourmid/pngtree-cheese-pizza-top-view-on-transparent-background-png-image_12442203.png",
+    "description": "Cheese Volcano – A fiery burst of molten cheese erupting from the center, loaded with spicy flavor and gooey goodness"
+  },
+  {
+    "id": 37,
+    "name": "Cheese Maxx",
+    "category": "cheeseburst",
+    "price": 382,
+    "image": "https://www.nicepng.com/png/detail/384-3843443_photo-cheese-pizza-vertical-double-cheese-margherita-pizza.png",
+    "description": "Cheese Maxx – A super-loaded cheese sensation packed with layers of rich, melty cheese for maximum indulgence."
+  },
+  {
+    "id": 38,
+    "name": "Four Cheese",
+    "category": "cheeseburst",
+    "price": 315,
+    "image": "https://media.istockphoto.com/id/1295773428/photo/pizza-with-cheese-isolated-on-white-background-clipping-path-full-depth-of-field.jpg?s=612x612&w=0&k=20&c=Oomq20XpoHKvkMROs5doC26BSWxrZH8Gs6sYIEPMtKs=",
+    "description": "Four Cheese – A heavenly fusion of mozzarella, cheddar, parmesan, and feta for a rich and velvety cheese experience."
+  },
+  {
+    "id": 39,
+    "name": "Melting Cheese",
+    "category": "cheeseburst",
+    "price": 360,
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/045/383/386/small/a-cheesy-delicious-pizza-with-tasty-pepperoni-on-a-transparent-background-png.png",
+    "description": "Melting Cheese – A gooey, irresistible pizza overflowing with rich, stretchy cheese that melts in every bite"
+  },
+  {
+    "id": 40,
+    "name": "Cheese Wave",
+    "category": "cheeseburst",
+    "price": 414,
+    "image": "https://png.pngtree.com/png-clipart/20241028/original/pngtree-cheese-pizza-png-image_16531984.png",
+    "description": "Cheese Wave – A delicious surge of creamy, melted cheese flowing over every slice for a mouthwatering experience."
+  },
+  {
+    "id": 41,
+    "name": "Family Veg Combo",
+    "category": "family",
+    "price": 732,
+    "image": "https://5.imimg.com/data5/VE/GG/MY-53040683/combo-for-family-28just-499-2f-29.jpg",
+    "description": "Family Veg Combo – A hearty mix of flavorful vegetarian pizzas, sides, and drinks — perfect for sharing with the whole family."
+  },
+  {
+    "id": 42,
+    "name": "Family Nonveg Combo",
+    "category": "family",
+    "price": 802,
+    "image": "https://png.pngtree.com/png-vector/20240807/ourmid/pngtree-pizza-burgers-and-fast-food-meals-png-image_13163209.png",
+    "description": "Family Non-Veg Combo – A loaded feast of meaty pizzas, sizzling sides, and chilled beverages made to satisfy every meat lover in the family.."
+  },
+  {
+    "id": 43,
+    "name": "Deluxe Family Meal",
+    "category": "family",
+    "price": 608,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLuiDuhzvwuEGjj-ldrJL-vA_Pe_eKIG2vow&s",
+    "description": "Deluxe Family Meal – A premium spread of assorted pizzas, sides, and drinks crafted for a delicious family-style celebration."
+  },
+  {
+    "id": 44,
+    "name": "Weekend Feast",
+    "category": "family",
+    "price": 815,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHeoijSUrTQ6R1Ky1mnoJtMX4Tnre7EjKidA&s",
+    "description": "Weekend Feast – A satisfying combo of pizzas, snacks, and drinks, perfect for relaxing and indulging over the weekend."
+  },
+  {
+    "id": 45,
+    "name": "Super Combo Deal",
+    "category": "family",
+    "price": 532,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThFmkfWRz8NpUcaiLZwQ2e1STpTXqdskyi6w&s",
+    "description": "Super Combo Deal – A value-packed bundle of pizzas, sides, and beverages that brings big flavor and big savings together"
+  },
+  {
+    "id": 46,
+    "name": "Veg Party Box",
+    "category": "family",
+    "price": 560,
+    "image": "https://static.vecteezy.com/system/resources/previews/046/861/111/non_2x/delicious-veggie-pizza-in-a-cardboard-box-isolated-on-a-transparent-background-free-png.png",
+    "description": "Veg Party Box – A festive assortment of delicious vegetarian pizzas and sides, perfect for sharing at any celebration"
+  },
+  {
+    "id": 47,
+    "name": "Nonveg Party Box",
+    "category": "family",
+    "price": 565,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVff-Ul2O-GNNhrfmCjwdueBMXEkyJKMoELQ&s",
+    "description": "Non-Veg Party Box – A mouthwatering collection of meaty pizzas and sides, crafted to spice up any party or gathering."
+  },
+  {
+    "id": 48,
+    "name": "Ultimate Family Feast",
+    "category": "family",
+    "price": 522,
+    "image": "https://png.pngtree.com/png-clipart/20250418/original/pngtree-delightful-fastfood-feast-a-vibrant-spread-of-pizza-burgers-and-fries-png-image_20727930.png",
+    "description": "Ultimate Family Feast – A grand indulgence of assorted pizzas, cheesy sides, and refreshing drinks made to satisfy the whole family"
+  },
+  {
+    "id": 49,
+    "name": "Double Deal Veg",
+    "category": "family",
+    "price": 692,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf4ausSi8sFkjD18F2tmEdD7G4jEAqgHhW9Q&s",
+    "description": "Double Deal Veg – A value-packed offer with two delicious vegetarian pizzas, perfect for sharing or doubling the delight."
+  },
+  {
+    "id": 50,
+    "name": "Big Bite Box",
+    "category": "family",
+    "price": 759,
+    "image": "https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=auto,quality=90/media/photosV2/3c5d785a-41ae-4f42-ae7a-d2c7ab3608c1-retina-large.png",
+    "description": "Big Bite Box – A giant box loaded with a variety of pizzas, sides, and treats to satisfy big cravings in every bite"
+  },
+  {
+    "id": 51,
+    "name": "Coca Cola",
+    "category": "beverages",
+    "price": 34,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqZEhOlVqSevjawYkAQUg7qvBgbWFSx_7yA&s",
+    "description": "Coca-Cola – The classic fizzy drink with a refreshing burst of sweetness and bubbles, perfect to pair with any pizza."
+  },
+  {
+    "id": 52,
+    "name": "Pepsi",
+    "category": "beverages",
+    "price": 70,
+    "image": "https://www.freeiconspng.com/thumbs/pepsi-png/pepsi-png-image-22.png",
+    "description": "Pepsi – A bold and refreshing cola with a crisp, sweet flavor that perfectly complements every cheesy slice."
+  },
+  {
+    "id": 53,
+    "name": "Sprite",
+    "category": "beverages",
+    "price": 54,
+    "image": "https://pngimg.com/d/sprite_PNG98770.png",
+    "description": "Sprite – A cool and zesty lemon-lime soda that refreshes your palate with every bubbly sip"
+  },
+  {
+    "id": 54,
+    "name": "Lemonade",
+    "category": "beverages",
+    "price": 55,
+    "image": "https://static.vecteezy.com/system/resources/previews/050/480/255/non_2x/refreshing-lemonade-served-with-fresh-lemon-slices-cut-out-stock-png.png",
+    "description": "Lemonade – A refreshing blend of tangy lemon and sweet zest, served chilled to brighten up any meal."
+  },
+  {
+    "id": 55,
+    "name": "Cold Coffee",
+    "category": "beverages",
+    "price": 82,
+    "image": "https://rosepng.com/wp-content/uploads/2024/09/s11728_cold_coffee_isolated_on_white_background_4c14cfac-1154-4664-8c53-d4f019c2ccc9_0-photoroom.png",
+    "description": "Cold Coffee – A chilled and creamy coffee blend that delivers a smooth caffeine kick with every sip.."
+  },
+  {
+    "id": 56,
+    "name": "Iced Tea",
+    "category": "beverages",
+    "price": 49,
+    "image": "https://img.pikbest.com/origin/09/26/74/41UpIkbEsT9nh.png!w700wp",
+    "description": "Ice Tea – A cool and refreshing tea infusion served over ice, perfect for a light and soothing sip.."
+  },
+  {
+    "id": 57,
+    "name": "Mango Shake",
+    "category": "beverages",
+    "price": 86,
+    "image": "https://static.vecteezy.com/system/resources/previews/038/066/865/non_2x/ai-generated-mango-smoothie-with-mint-free-png.png",
+    "description": "Mango Shake – A rich and creamy blend of ripe mangoes and milk, served chilled for a tropical treat.."
+  },
+  {
+    "id": 58,
+    "name": "Chocolate Shake",
+    "category": "beverages",
+    "price": 64,
+    "image": "https://png.pngtree.com/png-clipart/20240824/original/pngtree-delicious-creamy-chocolate-shake-with-vanilla-ice-cream-png-image_15836542.png",
+    "description": "Chocolate Shake – A thick, creamy delight bursting with rich chocolate flavor, perfect for dessert lovers."
+  },
+  {
+    "id": 59,
+    "name": "Water Bottle",
+    "category": "beverages",
+    "price": 46,
+    "image": "https://static.vecteezy.com/system/resources/previews/047/420/976/non_2x/trendy-water-caps-and-bottles-elevate-your-hydration-game-free-png.png",
+    "description": "Water Bottle – Pure, refreshing drinking water to keep you hydrated and balanced with every meal."
+  },
+  {
+    "id": 60,
+    "name": "Orange Juice",
+    "category": "beverages",
+    "price": 100,
+    "image": "https://static.vecteezy.com/system/resources/previews/027/309/248/non_2x/orange-juice-with-ai-generated-free-png.png",
+    "description": "Orange Juice – A fresh and tangy burst of citrus made from ripe oranges, packed with natural goodness."
+  }
+]
