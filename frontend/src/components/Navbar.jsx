@@ -98,8 +98,6 @@ const Navbar = () => {
               onClick={() => setShowSearch(true)}
             ></i>
           </div>
-
-          <button className="bg-amber-300 px-4 py-2 mt-3 rounded-full font-medium text-sm">Order Online</button>
         </div>
       )}
     </div>
