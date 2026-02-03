@@ -51,6 +51,8 @@ const Products = () => {
               >
                 <img
                   src={item.image}
+                  loading="eager"
+                  decoding="async"
                   alt={item.name}
                   className="h-52 w-full object-contain mb-4 bg-white rounded-xl p-2 cursor-pointer transition duration-300 group-hover:scale-105"
                   onClick={() =>

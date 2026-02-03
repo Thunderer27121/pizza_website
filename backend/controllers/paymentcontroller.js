@@ -9,17 +9,20 @@ export async function createOrder(req ,res){
     try {
   const {amount} = req.body;
   console.log(amount);
+  console.log(process.env.RAZORPAY_KEY_ID);
+  console.log(process.env.RAZORPAY_KEY_SECRET);
   if(!amount){
     return res.status(400).json({message : "amount not received"});
   }    
     const order = await razorpay.orders.create({
-        amount : amount* 100,
+        amount : amount*100,
          currency: "INR",
          receipt : "receipt"+Date.now(),
     });
     res.status(201).json({message : "order created", order});
     
   } catch (error) {
+    console.log("Error in createOrder:", error);
     return res.status(500).json({message : "internal server error"});
   }
 }

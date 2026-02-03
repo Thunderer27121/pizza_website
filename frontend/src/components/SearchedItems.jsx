@@ -35,6 +35,8 @@ const SearchedItems = () => {
               className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-5 hover:scale-[1.02] transition-all duration-300 shadow-md hover:shadow-yellow-200/20 group flex flex-col"
             >
               <img
+              loading='lazy'
+              decoding='auto'
                 src={pizza.image}
                 alt={pizza.name}
                 className="h-52 w-full object-contain mb-4 bg-white rounded-xl p-2 cursor-pointer transition duration-300 group-hover:scale-105"

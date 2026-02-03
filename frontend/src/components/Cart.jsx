@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, clearCart, decreaseQuantity, addToCart } from "./store/cartslice";
 import { useNavigate } from 'react-router-dom';
-import { createOrder, verifyPayment } from "./hook/paymenService";
+import { createOrder, verifyPayment } from "./hook/paymentService";
 
 
 const Cart = () => {
@@ -101,12 +101,12 @@ razorpay.open();
                      <div className='flex items-center justify-evenly '>
                         <button
                                 onClick={() => dispatch(clearCart())}
-                                className="px-6 py-3 bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300"
+                                className="px-6 py-3 bg-linear-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300"
                             >
                                 🗑️ Clear Cart
                             </button>
                             <button onClick={()=>{handlePayment(totalAmount)}}
-                            className="px-6 py-3 bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300">
+                            className="px-6 py-3 bg-linear-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300">
                                 Pay now {totalAmount}
                                 </button>
                     <button className="border-amber-50 outline-2 rounded-xl p-2" onClick={() => { navigate(-1) }}>GO BACK</button>
