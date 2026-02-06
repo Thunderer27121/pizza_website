@@ -6,7 +6,12 @@ const App = () => {
   const {pathname} = useLocation();
   useEffect(() => {
     window.scrollTo(0,0)
-  }, [pathname])
+  }, [pathname]);
+  useEffect(() => {
+  fetch(`${import.meta.env.VITE_backend_url}/health`)
+    .catch(() => {});
+}, []);
+
   
   return (
     <div className=" h-screen w-full bg-black text-white overflow-auto" style={{scrollbarWidth: "none"}}>
