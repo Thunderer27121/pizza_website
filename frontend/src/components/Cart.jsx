@@ -22,7 +22,7 @@ const options = {
   amount: response.order.amount,    
 
   currency: "INR",
-  name: "Pizza App 🍕",
+  name: "HOT 'N' SLICE",
   description: "Order Payment",
 
   handler: async (rpResponse) => {
@@ -41,16 +41,21 @@ console.log("AMOUNT SENT TO CHECKOUT:", options.amount);
 
 const razorpay = new window.Razorpay(options);
 razorpay.open();
+dispatch(clearCart());
 };
 
     return (
         <div className="max-w-4xl mx-auto p-6 flex-col flex justify-center items-center">
             <h2 className="text-3xl font-bold mb-6 text-center">🛒 Your Cart</h2>
+            <button className="border-amber-50 outline-2 mb-3 rounded-xl p-2" onClick={() => { navigate(-1) }}>GO BACK</button>
 
             {cartItems.length === 0 ? (
                 <p className="text-center text-gray-500 flex flex-col justify-center w-1/2  ">Your cart is empty
-                    <button className="border-amber-50 outline-2 rounded-xl p-2 mt-10" onClick={() => { navigate(-1) }}>GO BACK</button>
-                    <img src="https://www.pngplay.com/wp-content/uploads/7/Cart-Transparent-PNG.png" alt="" className='rounded-2xl mt-12 hover:bg-white transition h-[200px] w-[200px] m-auto' />
+                    
+                    <img src="https://www.pngplay.com/wp-content/uploads/7/Cart-Transparent-PNG.png" alt="" 
+                    loading= "lazy"
+                    decoding='async'
+                    className='rounded-2xl mt-12 hover:bg-white transition h-[200px] w-[200px] m-auto' />
                 </p>
             ) : (
                 <div className="space-y-6">
@@ -101,15 +106,15 @@ razorpay.open();
                      <div className='flex items-center justify-evenly '>
                         <button
                                 onClick={() => dispatch(clearCart())}
-                                className="px-6 py-3 bg-linear-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300"
+                                className="px-3 py-2 bg-linear-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300"
                             >
                                 🗑️ Clear Cart
                             </button>
                             <button onClick={()=>{handlePayment(totalAmount)}}
-                            className="px-6 py-3 bg-linear-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300">
+                            className="px-3 py-2 bg-linear-to-r from-red-500 via-red-600 to-red-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300">
                                 Pay now {totalAmount}
                                 </button>
-                    <button className="border-amber-50 outline-2 rounded-xl p-2" onClick={() => { navigate(-1) }}>GO BACK</button>
+                    
                      </div>
 
                 </div>

@@ -2,7 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import { pizzaContext } from "./context/Pizzaprovider";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, removeFromCart, decreaseQuantity } from "./store/cartslice";
+import { addToCart, decreaseQuantity } from "./store/cartslice";
 
 const Products = () => {
   const { pizzas } = useContext(pizzaContext);
