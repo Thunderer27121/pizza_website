@@ -15,6 +15,9 @@ app.use(cors({
     origin : process.env.FRONTEND_URL,
     credentials : true,
 }));
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "awake" });
+});
 
 app.use("/api/payment", paymentRoutes);
 
