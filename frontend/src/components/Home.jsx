@@ -25,8 +25,9 @@ const Home = () => {
       <div className="w-full lg:w-1/2 mb-10 lg:mb-0 px-4 flex items-center justify-center">
         <motion.img
           src={"/images/pizza.avif"}
-          loading="lazy"
+          loading="eager"
           decoding="auto"
+          fetchpriority="high"
           alt="pizza"
           className="w-full h-auto lg:h-[600px] xl:h-[650px] max-h-[85vh] object-cover rounded-3xl shadow-2xl"
           initial={{scale : 0, opacity: 0 }}
@@ -70,7 +71,7 @@ const Home = () => {
             <div className="relative overflow-hidden rounded-2xl h-[200px] sm:h-[240px] md:h-[260px] flex items-center justify-center">
               <img
                 src={pizzas[currentIndex].img}
-                loading="lazy"
+                loading="eager"
                 decoding="async"
                 alt={pizzas[currentIndex].name}
                 className="max-h-full max-w-full object-contain scale-105 hover:scale-110 transition-transform duration-500"
