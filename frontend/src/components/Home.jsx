@@ -1,5 +1,6 @@
 import {motion}  from "motion/react";
 import { useState } from "react";
+import { useEffect } from "react";
 
 const pizzas = [
   { id: 1, name: "Margherita", img: "/images/margretta.avif" },
@@ -18,6 +19,13 @@ const Home = () => {
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev === pizzas.length - 1 ? 0 : prev + 1));
   };
+  useEffect(() => {
+  const nextIndex =
+    currentIndex === pizzas.length - 1 ? 0 : currentIndex + 1;
+
+  const img = new Image();
+  img.src = pizzas[nextIndex].img;
+}, [currentIndex]);
 
   return (
     <div className="min-h-screen w-full flex flex-col lg:flex-row items-center justify-center px-4 py-10 bg-gradient-to-br from-[#1f1c2c] to-[#928DAB] text-white">
@@ -60,7 +68,7 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           <p className="px-2 sm:px-6 text-lg sm:text-xl italic text-gray-100">
             "Freshly baked perfection, straight from our oven to your plate. Hot
@@ -71,7 +79,8 @@ const Home = () => {
             <div className="relative overflow-hidden rounded-2xl h-[200px] sm:h-[240px] md:h-[260px] flex items-center justify-center">
               <img
                 src={pizzas[currentIndex].img}
-                loading="eager"
+                loading="lazy"
+                decoding="async"
                 alt={pizzas[currentIndex].name}
                 className="max-h-full max-w-full object-contain scale-105 hover:scale-110 transition-transform duration-500"
               />
