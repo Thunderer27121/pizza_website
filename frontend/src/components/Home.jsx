@@ -72,7 +72,6 @@ const Home = () => {
               <img
                 src={pizzas[currentIndex].img}
                 loading="eager"
-                decoding="async"
                 alt={pizzas[currentIndex].name}
                 className="max-h-full max-w-full object-contain scale-105 hover:scale-110 transition-transform duration-500"
               />
