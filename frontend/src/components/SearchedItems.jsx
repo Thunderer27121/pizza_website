@@ -18,7 +18,6 @@ const SearchedItems = () => {
     return cartItem ? cartItem.quantity : 0;
   };
     const dispatch = useDispatch();
-    const cart = useSelector((cart)=>state.cart.cartItems);
   if(founditems.length > 0){
   return (
     <div className="space-y-4">
