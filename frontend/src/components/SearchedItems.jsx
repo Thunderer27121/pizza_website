@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom'
 import { pizzaContext } from './context/Pizzaprovider';
 import { useDispatch, useSelector } from "react-redux";
