@@ -35,7 +35,7 @@ const Home = () => {
           src={"/images/pizza.avif"}
           loading="eager"
           decoding="auto"
-          fetchpriority="high"
+          fetchPriority="high"
           alt="pizza"
           className="w-full h-auto lg:h-[600px] xl:h-[650px] max-h-[85vh] object-cover rounded-3xl shadow-2xl"
           initial={{scale : 0, opacity: 0 }}
