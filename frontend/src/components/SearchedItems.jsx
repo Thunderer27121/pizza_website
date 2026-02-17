@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import { useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom'
 import { pizzaContext } from './context/Pizzaprovider';
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart, decreaseQuantity } from "./store/cartslice";
 
 const SearchedItems = () => {
     const {item} = useParams();
@@ -15,6 +17,8 @@ const SearchedItems = () => {
     const cartItem = cart.find((item) => item.id === id);
     return cartItem ? cartItem.quantity : 0;
   };
+    const dispatch = useDispatch();
+    const cart = useSelector((cart)=>state.cart.cartItems);
   if(founditems.length > 0){
   return (
     <div className="space-y-4">
